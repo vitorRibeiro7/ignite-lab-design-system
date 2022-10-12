@@ -1,6 +1,7 @@
 import { clsx } from 'clsx';
+import { Slot } from '@radix-ui/react-slot';
 
- export interface textProps {
+export interface textProps {
     size?: 'sm' | 'md' | 'lg';
     children: string;
 }
